@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
 import axios from 'axios';
-import { BASE_URL, BASE_URL_LOGIN} from "../config";
+import { BASE_URL_LOGIN} from "../config";
 
 const clienteAxios = axios.create({
   baseURL: BASE_URL_LOGIN,
